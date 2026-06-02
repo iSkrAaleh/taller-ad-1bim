@@ -1,2 +1,14 @@
 todo-docker/data/*
 !todo-docker/data/.gitkeep
+
+venv/
+ENV/
+env/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+todo-docker/data/postgres/
+todo-docker/data/mariadb/
